@@ -22,7 +22,8 @@ from langchain.chains import LLMChain
 import streamlit as st
 from streamlit_feedback import streamlit_feedback
 
-
+OPENAI_key = st.secrets["OPENAI_key"]
+WHISPER_key = st.secrets["WHISPER_key"]
 
 os.environ["OPENAI_API_KEY"] = OPENAI_key
 os.environ["WHISPER_API_KEY"] = WHISPER_key 
