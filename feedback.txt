@@ -1,0 +1,29 @@
+Begin FeedbackScore: 👎 ; Reason: None ; Message: I'm sorry to hear that you're experiencing stomach pains. This can be a common side effect of certain cancer treatments. To help manage this symptom, consider the following tips:
+
+- Eat small, frequent meals instead of large ones.
+- Avoid foods that are spicy, acidic, or high in fat, as they can aggravate your stomach.
+- Try bland foods like rice, bananas, applesauce, and toast, which might be easier on your stomach.
+- Stay hydrated, but sip fluids slowly throughout the day instead of drinking large amounts quickly.
+- If you are able, engage in light physical activity like walking, which can aid digestion.
+- Wear loose-fitting clothing to avoid putting additional pressure on your abdomen.
+- If recommended by your healthcare team, you might use over-the-counter antacids or acid reducers, but always consult with them first.
+- If your stomach pains persist or worsen, please contact your healthcare provider for further evaluation and advice.
+End FeedbackBegin Feedback 
+Score: 👎 ; Reason: bad ; Message: For managing stomach pains during cancer treatment, consider the following self-care instructions:
+
+1. **Eat Small, Frequent Meals:** Instead of three large meals, try eating smaller portions more frequently throughout the day to avoid overloading your stomach.
+
+2. **Avoid Foods that Irritate:** Stay away from spicy, acidic, or fatty foods that can aggravate your stomach. Instead, opt for bland, easy-to-digest foods like rice, bananas, applesauce, and toast.
+
+3. **Stay Upright After Eating:** Sitting up or going for a gentle walk after eating can help prevent acid reflux and discomfort.
+
+4. **Use Heat:** Apply a warm, not hot, heating pad to your stomach area to help relax muscles and alleviate pain.
+
+5. **Stay Hydrated:** Drink clear fluids throughout the day to stay hydrated, but avoid drinking large amounts at once.
+
+6. **Medication:** If prescribed by your doctor, use antacids or other medications to help control stomach acid and pain.
+
+7. **Relaxation Techniques:** Practice deep breathing, meditation, or progressive muscle relaxation to reduce stress and potentially ease stomach pain.
+
+Always report persistent or severe stomach pains to your healthcare provider, as they could indicate a more serious issue that requires medical attention.
+End Feedback 
