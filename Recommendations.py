@@ -102,7 +102,7 @@ if prompt := st.chat_input("Enter your question"):
     st.session_state.messages.append({"role": "user", "content": prompt})
     
     # Access LLM
-    response = agent1_chain.predict(reports_input="Stomach pains")
+    response = agent1_chain.predict(reports_input=prompt)
     
     # Create Audio
     speech_file_path =  "sample_speech.mp3"
