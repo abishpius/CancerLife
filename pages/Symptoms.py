@@ -178,5 +178,4 @@ if st.session_state.clicked:
                 file.write("End Feedback \n")
             
             st.toast("Feedback recorded!", icon="📝")
-            st.audio(speech_file_path)
 
