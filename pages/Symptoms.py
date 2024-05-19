@@ -28,6 +28,11 @@ WHISPER_key = st.secrets["WHISPER_key"]
 os.environ["OPENAI_API_KEY"] = OPENAI_key
 os.environ["WHISPER_API_KEY"] = WHISPER_key  
 
+if 'clicked' not in st.session_state:
+    st.session_state.clicked = False
+
+def click_button():
+    st.session_state.clicked = True
 
 #### Begin Streamlit app ####
 
@@ -55,10 +60,10 @@ symptoms = [
 # Create a form in Streamlit
 with st.form(key='symptom_form'):
     selected_items = st.multiselect('The following symptoms have been reported by you over the last 30 days. Which ones are impacting you the most or you would like help with?', symptoms)
-    submit_button = st.form_submit_button(label='Submit')
+    submit_button = st.form_submit_button(label='Submit', on_click=click_button)
 
 
-if submit_button:
+if st.session_state.clicked:
     # Make Agent1
     agent_symp_prompt_part1 = '''
     You are an oncology nurse providing remote self care advice to cancer patients about symptoms and side effects that may occur during cancer treatment. Please read the patient's most concerning symptoms here'''
