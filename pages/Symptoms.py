@@ -158,7 +158,7 @@ if st.session_state.clicked:
     # Display chat messages from history on app rerun
     for message in st.session_state.messages_symptoms:
         if message["role"] == "assistant":
-            avt = '👩‍⚕️'
+            avt = 'Health_Coach_MaryBeth.jpeg'
         else:
             avt = None
         with st.chat_message(message["role"], avatar= avt ):
