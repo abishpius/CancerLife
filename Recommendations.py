@@ -88,7 +88,7 @@ if "response" not in st.session_state:
 # Display chat messages from history on app rerun
 for message in st.session_state.messages:
     if message["role"] == "assistant":
-        avt = '👩‍⚕️'
+        avt = 'Health_Coach_MaryBeth.jpeg'
     else:
         avt = None
     with st.chat_message(message["role"], avatar= avt ):
@@ -115,7 +115,7 @@ if prompt := st.chat_input("Enter your question"):
     audio_response.stream_to_file(speech_file_path)
 
     st.session_state["response"] = response
-    with st.chat_message("assistant", avatar='👩‍⚕️'):
+    with st.chat_message("assistant", avatar='Health_Coach_MaryBeth.jpeg'):
         st.session_state.messages.append({"role": "assistant", "content": st.session_state["response"]})
         st.write(st.session_state["response"])
 
