@@ -108,7 +108,7 @@ if prompt := st.chat_input("Enter your question"):
     speech_file_path =  "sample_speech.mp3"
     audio_response = tts_client.audio.speech.create(
     model="tts-1-hd",
-    voice="fable",
+    voice="shimmer",
     input=response
     )
 
