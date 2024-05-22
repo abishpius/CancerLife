@@ -46,14 +46,42 @@ tts_client_symp = OpenAI(api_key = OPENAI_key)
 
 # List of symptoms for the multiselect widget
 symptoms = [
-    "Headaches",
-    "Pain",
-    "Nausea",
+    "Achieve and maintain erection",
+    "Acne",
     "Anxiety",
-    "Weight Gain",
+    "Back Pain",
+    "Bleeding",
+    "Bloating",
+    "Blood in Stool",
+    "Blood in Urine",
+    "Blurred vision",
+    "Chest Pain",
+    "Chills",
+    "Confusion",
     "Constipation",
-    "Hair loss",
-    "Neuropathy"
+    "Cough",
+    "Decreased appetite",
+    "Decreased libido",
+    "Delayed orgasm",
+    "Difficulty swallowing",
+    "Dry mouth",
+    "Fatigue",
+    "Feeling Down",
+    "Feeling Stressed",
+    "Hair Loss",
+    "Headaches",
+    "Insomnia",
+    "Joint pain",
+    "Lightheadedness",
+    "Muscle pain",
+    "Nausea",
+    "Neuropathy",
+    "Numbness",
+    "Pain",
+    "Shortness of Breath",
+    "Skin Change",
+    "Trouble Walking",
+    "Weakness"
 ]
 
 
@@ -119,7 +147,7 @@ if st.session_state.clicked:
     speech_file_path =  "sample_speech.mp3"
     audio_response = tts_client_symp.audio.speech.create(
     model="tts-1-hd",
-    voice="fable",
+    voice="shimmer",
     input=response
     )
 
