@@ -29,7 +29,7 @@ os.environ["OPENAI_API_KEY"] = OPENAI_key
 os.environ["WHISPER_API_KEY"] = WHISPER_key 
 
 # Intialize APIs
-agent1 = ChatOpenAI(openai_api_key=OPENAI_key, model ='gpt-4-1106-preview')
+agent1 = ChatOpenAI(openai_api_key=OPENAI_key, model ='gpt-4o')
 tts_client = OpenAI(api_key = OPENAI_key)
 
 
