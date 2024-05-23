@@ -41,7 +41,7 @@ st.divider()
 st.markdown('<center><h2>Symptoms</h2></center>', unsafe_allow_html=True)
 st.markdown('*This is a demo of Agent Responding to Symptoms*')
 
-agent_symp = ChatOpenAI(openai_api_key=OPENAI_key, model ='gpt-4-1106-preview')
+agent_symp = ChatOpenAI(openai_api_key=OPENAI_key, model ='gpt-4o')
 tts_client_symp = OpenAI(api_key = OPENAI_key)
 
 # List of symptoms for the multiselect widget
