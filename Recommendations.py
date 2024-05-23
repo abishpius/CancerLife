@@ -78,7 +78,7 @@ st.markdown('*This is a demo of Agent 1*')
 # Initialize State Variables
 if "messages" not in st.session_state:
     st.session_state["messages"] = [
-        {"role": "assistant", "content": "Welcome, I am your CancerLife's Personal Nurse Navigator, how can I help you?"}
+        {"role": "assistant", "content": "Hi, I'm Mary Beth, your Cancer Health Coach. I'm an AI trained to help manage your cancer symptoms and cancer journey."}
     ]
 
 if "response" not in st.session_state:
