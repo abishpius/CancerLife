@@ -133,7 +133,7 @@ if uploaded_file is not None:
         feedback = streamlit_feedback(
             feedback_type="thumbs",
             optional_text_label="[Optional] Please provide an explanation",
-            key=f"feedback_{len(st.session_state.messages)}",
+            key=f"feedback_{len(st.session_state.clinical_trial_messages)}",
         )
         # Add thumbs up thumbs down feedback
         if feedback:
