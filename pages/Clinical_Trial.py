@@ -126,6 +126,8 @@ if uploaded_file is not None:
             st.session_state.clinical_trial_messages.append({"role": "assistant", "content": st.session_state["clinical_response"]})
             st.markdown(st.session_state["clinical_response"], unsafe_allow_html=True)
 
+        st.audio(speech_file_path)
+
     # Feedback
     if st.session_state["clinical_response"]:
         feedback = streamlit_feedback(
