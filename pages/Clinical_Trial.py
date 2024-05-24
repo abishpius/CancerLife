@@ -140,7 +140,7 @@ if uploaded_file is not None:
             with open("feedback.txt", "a", encoding="utf-8") as file:
                 # Write the feedback to the file
                 file.write("Begin Feedback \n")
-                file.write(f"Score: {feedback['score']} ; Reason: {feedback['text']} ; Message: {st.session_state['response']}" + "\n")
+                file.write(f"Score: {feedback['score']} ; Reason: {feedback['text']} ; Message: {st.session_state['clinical_response']}" + "\n")
                 file.write("End Feedback \n")
             
             st.toast("Feedback recorded!", icon="📝")
