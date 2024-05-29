@@ -99,9 +99,9 @@ if st.session_state.clicked:
     agent_symp_prompt_part2 = '\n'.join(selected_items)
 
     agent_symp_prompt_part3 = '''
-    Then, provide self care instructions for each of the symptoms and side effects on the Impact Symptoms List.
-    Your goal is to mitigate and reduce the severity impact of these symptoms as best you can by providing self care advice.
-    By lowering the impact of each specific symptom your goal is to improve each patient's Quality of Life scores measured by the EQ-5D.
+    Then, provide self care instructions for each of the symptoms and side effects on the Impact Symptoms List as they relate to Cancer.
+    Your goal is to mitigate and reduce the severity impact of these symptoms as best you can by providing self care advice for the Cancer patient.
+    By lowering the impact of each specific symptom your goal is to improve each Cancer patient's Quality of Life scores measured by the EQ-5D.
     Please be supportive in your tone at all times.
     Each symptom care instruction response should be easy to understand and be no more than 150 words.
     '''
