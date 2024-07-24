@@ -35,7 +35,7 @@ if "clinical_response" not in st.session_state:
     st.session_state["clinical_response"] = None
 
 # Intialize APIs
-clinical_trials_agent = ChatOpenAI(openai_api_key=OPENAI_key, model ='gpt-4o')
+clinical_trials_agent = ChatOpenAI(openai_api_key=OPENAI_key, model ='gpt-4o-mini')
 tts_client = OpenAI(api_key = OPENAI_key)
 
 #### Begin Streamlit app ####
